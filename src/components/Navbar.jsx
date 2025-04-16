@@ -29,22 +29,22 @@ const Navbar = () => {
             {currentUser ? (
               <>
                 <Link to="/templates">
-                  <Button variant="ghost" className="gap-2">
+                  {/* <Button variant="ghost" className="gap-2">
                     <FileText className="w-4 h-4" />
                     Templates
-                  </Button>
+                  </Button> */}
                 </Link>
                 <Link to="/profile">
-                  <Button variant="ghost" className="gap-2">
+                  {/* <Button variant="ghost" className="gap-2">
                     <User className="w-4 h-4" />
                     Profile
-                  </Button>
+                  </Button> */}
                 </Link>
                 <Link to="/settings">
-                  <Button variant="ghost" className="gap-2">
+                  {/* <Button variant="ghost" className="gap-2">
                     <Settings className="w-4 h-4" />
                     Settings
-                  </Button>
+                  </Button> */}
                 </Link>
                 <Button variant="outline" className="gap-2" onClick={handleLogout}>
                   <LogOut className="w-4 h-4" />
