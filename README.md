@@ -1,4 +1,4 @@
-# AI-Resume-and-Cover-Letter-Builder 📝🤖
+CVNirman_AI
 
 A powerful AI-based tool that helps users generate professional resumes and cover letters effortlessly. Built using **ReactJS**, **TailwindCSS**, **Gemini API**, and **Firebase** for authentication, this project simplifies the job application process.
 
@@ -24,9 +24,6 @@ A powerful AI-based tool that helps users generate professional resumes and cove
 
 ---
 
-## Video Presentation 🎥
-
-https://github.com/user-attachments/assets/2f6f578b-8d9e-44cb-8e52-563945a17529
 
 ## Installation 🖥️
 
@@ -76,13 +73,6 @@ AI-Resume-and-Cover-Letter-Builder
 
 ---
 
-## Screenshots 📸
-
-| **Feature**             | **Screenshot**               |
-|-------------------------|-----------------------------|
-| Resume Builder          | ![Screenshot (241)](https://github.com/user-attachments/assets/887d539e-b9a3-45fb-b0f5-b2f571ee13d8)|
-| Cover Letter Generator  | ![Screenshot (242)](https://github.com/user-attachments/assets/d049022b-6508-481f-b647-9eb371593ce9)|
-| Home Page               | ![Screenshot (240)](https://github.com/user-attachments/assets/55f7328b-b1e1-47ff-ba6a-380d523ca86d)|
 
 ---
 
@@ -131,24 +121,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 This project is licensed under the [MIT License](LICENSE).
 
----
 
-## Acknowledgments 🙌
-
-- [ReactJS](https://reactjs.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [Firebase](https://firebase.google.com/)
-- [Gemini API](https://ai.google.dev/)
-- [React Icons](https://react-icons.github.io/react-icons/)
-
----
-
-## Here is sample 
-
-- [Resume](https://drive.google.com/file/d/1EnttPr6lMtRW4yHKrlp-h67_6-fqOxZb/view)
-- [Cover Letter](https://drive.google.com/file/d/1J_tsbQtE8nlXWNwli7Lqnnv58iRJoDDG/view?usp=sharing)
-
-
-## Author 👨‍💻
-
-Developed by **[Tushar Shinde](https://github.com/Tushar-Shinde31)**. Connect with me on [LinkedIn](https://www.linkedin.com/in/tushar-shinde-262335257/).
