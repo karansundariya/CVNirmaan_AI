@@ -57,20 +57,21 @@ The app will be available at:
 
 📁 Project Structure
 bash
-CVNirmaan
-├── src
-│   ├── components         # 🔧 Reusable UI components
-│   ├── pages              # 📄 Application pages (Home, Dashboard, etc.)
-│   ├── firebase.js        # 🔐 Firebase configuration
-│   ├── App.js             # 🧠 Main app component
-│   ├── index.js           # 🚪 Entry point
-│   └── assets             # 🖼️ Static assets (images, icons, etc.)
-├── public                 # 🌐 Public files (index.html, etc.)
-├── .env                   # 🧾 Environment variables (not committed)
-├── .gitignore             # 📛 Git ignore file
-├── package.json           # 📦 Dependencies and scripts
-├── tailwind.config.js     # 🎨 TailwindCSS configuration
-└── README.md              # 📘 Project documentation
+CVNirmaan_AI/
+├── public/                  # 🌐 Public files (index.html, favicon, etc.)
+├── src/                     # 🧠 Source code
+│   ├── components/          # 🔧 Reusable UI components
+│   ├── pages/               # 📄 Application pages (Home, Dashboard, etc.)
+│   ├── assets/              # 🖼️ Static assets (images, icons, etc.)
+│   ├── firebase.js          # 🔐 Firebase configuration
+│   ├── App.js               # 🧠 Main app component
+│   └── index.js             # 🚪 Entry point
+├── .env                     # 🧾 Environment variables (not committed)
+├── .gitignore               # 📛 Git ignore file
+├── package.json             # 📦 Project dependencies and scripts
+├── tailwind.config.js       # 🎨 TailwindCSS configuration
+└── README.md                # 📘 Project documentation
+
 📜 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute.
