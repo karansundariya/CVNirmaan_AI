@@ -4,7 +4,9 @@ const genAI = new GoogleGenerativeAI('AIzaSyCLtu3I0Y3K8wfq-xyOpsOHiqm1y1iSiNM');
 
 export async function generateResumeContent(prompt, currentContent = '') {
   try {
-    const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
+    // Change this to your Model name 
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+
     const result = await model.generateContent(
       `${prompt}\nCurrent content: ${currentContent}`
     );
