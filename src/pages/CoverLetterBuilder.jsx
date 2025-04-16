@@ -189,7 +189,7 @@ function CoverLetterBuilder() {
                 <FaDownload className="mr-2" />
                 {loading ? 'Exporting...' : 'Export PDF'}
               </button>
-              <button
+              {/* <button
               
                 onClick={handleSaveDraft}
                 disabled={!coverLetter || savingDraft}
@@ -197,7 +197,7 @@ function CoverLetterBuilder() {
               >
                 <FaSave className="mr-2" />
                 {savingDraft ? 'Saving...' : 'Save Draft'}
-              </button>
+              </button> */}
             </div>
           </div>
           

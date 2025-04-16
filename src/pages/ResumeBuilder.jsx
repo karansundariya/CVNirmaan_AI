@@ -158,13 +158,13 @@ function ResumeBuilder() {
                 ))}
               </div>
 
-              <button
+              {/* <button
                 onClick={handleAIGenerate}
                 disabled={generating}
                 className="flex items-center gap-2 w-full justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 <FaMagic /> {generating ? 'Generating...' : 'AI Generate'}
-              </button>
+              </button> */}
             </div>
           </div>
 
@@ -244,14 +244,14 @@ function ResumeBuilder() {
             >
               <FaDownload /> {loading ? 'Exporting...' : 'Export PDF'}
             </button>
-            <button
+            {/* <button
               onClick={handleSaveDraft}
               disabled={savingDraft}
               className="flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700"
             >
               <FaSave className="mr-2" />
               {savingDraft ? 'Saving...' : 'Save Draft'}
-            </button>
+            </button> */}
           </div>
         </div>
 
