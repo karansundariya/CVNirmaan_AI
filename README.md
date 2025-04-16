@@ -55,22 +55,6 @@ npm start
 The app will be available at:
 🌐 http://localhost:3000
 
-📁 Project Structure
-bash
-CVNirmaan_AI/
-├── public/                  # 🌐 Public files (index.html, favicon, etc.)
-├── src/                     # 🧠 Source code
-│   ├── components/          # 🔧 Reusable UI components
-│   ├── pages/               # 📄 Application pages (Home, Dashboard, etc.)
-│   ├── assets/              # 🖼️ Static assets (images, icons, etc.)
-│   ├── firebase.js          # 🔐 Firebase configuration
-│   ├── App.js               # 🧠 Main app component
-│   └── index.js             # 🚪 Entry point
-├── .env                     # 🧾 Environment variables (not committed)
-├── .gitignore               # 📛 Git ignore file
-├── package.json             # 📦 Project dependencies and scripts
-├── tailwind.config.js       # 🎨 TailwindCSS configuration
-└── README.md                # 📘 Project documentation
 
 📜 License
 This project is licensed under the MIT License.
