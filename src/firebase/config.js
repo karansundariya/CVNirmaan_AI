@@ -1,16 +1,21 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
+import { getAnalytics } from 'firebase/analytics';
+
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDWeXZGCYW0SESwlnlNws515ttLtoli3vE",
-  authDomain: "resume-builder-d7f7a.firebaseapp.com",
-  projectId: "resume-builder-d7f7a",
-  storageBucket: "resume-builder-d7f7a.firebasestorage.app",
-  messagingSenderId: "103217757410",
-  appId: "1:103217757410:web:c3741d0e23e86499c872bb",
-  measurementId: "G-E4V47B2GG9"
+  apiKey: "AIzaSyCai90r34dTcGXwe6ZHN8JoUgjkdbSmmrU",
+  authDomain: "ai-resume-maker-14685.firebaseapp.com",
+  projectId: "ai-resume-maker-14685",
+  storageBucket: "ai-resume-maker-14685.firebasestorage.app",
+  messagingSenderId: "866066251732",
+  appId: "1:866066251732:web:c76386cbb84afbcd636041",
+  measurementId: "G-WRF16QB23G"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+const analytics = getAnalytics(app); 
+
 export default app;
