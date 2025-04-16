@@ -1,124 +1,85 @@
-CVNirman_AI
+# 🚀 CVNirman_AI
 
-A powerful AI-based tool that helps users generate professional resumes and cover letters effortlessly. Built using **ReactJS**, **TailwindCSS**, **Gemini API**, and **Firebase** for authentication, this project simplifies the job application process.
-
----
-
-## Features ✨
-
-- **AI-Powered Resume Builder**: Generate tailored resumes based on your input.
-- **Cover Letter Generator**: Create personalized cover letters in seconds.
-- **User Authentication**: 🔒 Secure login and registration using Firebase.
-- **Responsive Design**: 📱 Mobile-first and fully responsive UI with TailwindCSS.
-- **Modern Icons**: 🎨 Enhanced visual experience using React Icons.
-- **Gemini API Integration**: 🚀 Leverages AI capabilities for resume and cover letter generation.
+A powerful AI-based tool that helps users generate professional resumes and cover letters effortlessly. Built using **ReactJS**, **TailwindCSS**, **Gemini API**, and **Firebase** for authentication, this project simplifies the job application process for job seekers and professionals alike.
 
 ---
 
-## Tech Stack 🛠️
+## ✨ Features
 
-- **Frontend**: ReactJS, TailwindCSS
-- **Authentication**: Firebase
-- **API**: Gemini API
-- **Icons**: React Icons
+- 🤖 **AI-Powered Resume Builder** – Generate tailored resumes based on your input.
+- 📝 **Cover Letter Generator** – Create personalized cover letters in seconds.
+- 🔐 **User Authentication** – Secure login and registration using Firebase.
+- 📱 **Responsive Design** – Mobile-first and fully responsive UI with TailwindCSS.
+- 🎨 **Modern UI Icons** – Enhanced visual experience using React Icons.
+- ⚡ **Gemini API Integration** – Leverages Gemini AI for intelligent content generation.
 
 ---
 
+## 🛠️ Tech Stack
 
-## Installation 🖥️
+| Layer          | Technology             |
+|----------------|------------------------|
+| 🎨 Frontend    | ReactJS, TailwindCSS   |
+| 🔐 Auth        | Firebase Authentication |
+| 🤖 AI Engine   | Gemini API             |
+| 🎯 Icons       | React Icons            |
+
+---
+
+## 🧪 Installation
 
 Follow these steps to set up the project locally:
 
-1. **Clone the repository**:
+1. **📥 Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/AI-Resume-and-Cover-Letter-Builder.git
-   cd AI-Resume-and-Cover-Letter-Builder
-   ```
+   git clone https://github.com/karansundariya/CVNirmaan_AI.git
+   cd CVNirman_AI
+📦 Install dependencies:
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+bash
 
-3. **Add Firebase configuration**:
-   - Go to your Firebase console.
-   - Create a new project and obtain the Firebase configuration.
-   - Replace the Firebase config in `src/firebase.js` with your details.
+npm install
+📄 .env Setup:
+Create a .env file in the root directory and add your own Firebase and Gemini API credentials:
 
-4. **Run the application**:
-   ```bash
-   npm start
-   ```
+env
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
+VITE_GEMINI_API_KEY=your_gemini_api_key
 
-The app will be available at `http://localhost:3000`.
 
----
+▶️ Run the application:
 
-## Project Structure 📂
+bash
 
-```
-AI-Resume-and-Cover-Letter-Builder
+npm start
+The app will be available at:
+🌐 http://localhost:3000
+
+📁 Project Structure
+bash
+CVNirmaan
 ├── src
-│   ├── components   # Reusable UI components
-│   ├── pages        # Application pages (Home, Dashboard, etc.)
-│   ├── firebase.js  # Firebase configuration
-│   ├── App.js       # Main app component
-│   ├── index.js     # Entry point
-│   └── assets       # Static assets (images, icons, etc.)
-├── public           # Public files (index.html, etc.)
-├── package.json     # Project dependencies and scripts
-├── tailwind.config.js # TailwindCSS configuration
-└── README.md        # Project documentation
-```
-
----
-
-
----
-
-## Deployment 🚀
-
-The project can be deployed to platforms like **Vercel**, **Netlify**, or **Firebase Hosting**.
-
-1. **Build the project**:
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy to your preferred platform**:
-   - For **Vercel**: Run `vercel deploy`.
-   - For **Netlify**: Drag and drop the `build/` folder into the Netlify dashboard.
-   - For **Firebase Hosting**:
-     ```bash
-     firebase init
-     firebase deploy
-     ```
-
----
-
-## Contributions 🤝
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
----
-
-## License 📜
-
-This project is licensed under the [MIT License](LICENSE).
+│   ├── components         # 🔧 Reusable UI components
+│   ├── pages              # 📄 Application pages (Home, Dashboard, etc.)
+│   ├── firebase.js        # 🔐 Firebase configuration
+│   ├── App.js             # 🧠 Main app component
+│   ├── index.js           # 🚪 Entry point
+│   └── assets             # 🖼️ Static assets (images, icons, etc.)
+├── public                 # 🌐 Public files (index.html, etc.)
+├── .env                   # 🧾 Environment variables (not committed)
+├── .gitignore             # 📛 Git ignore file
+├── package.json           # 📦 Dependencies and scripts
+├── tailwind.config.js     # 🎨 TailwindCSS configuration
+└── README.md              # 📘 Project documentation
 
 
+
+📜 License
+This project is licensed under the MIT License.
+Feel free to use, modify, and distribute.
