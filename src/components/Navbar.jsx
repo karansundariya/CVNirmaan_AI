@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-xl font-bold text-primary">Resume Perfect AI</span>
+              <span className="text-xl font-bold text-primary">CVNirmaan AI</span>
             </Link>
           </div>
 
