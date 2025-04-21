@@ -56,25 +56,25 @@ export async function improveContent(section, content) {
   return generateResumeContent(prompt);
 }
 
-// export async function generateFullResume(userData) {
-//   const prompt = `Generate a professional resume for a ${userData.jobTitle} with ${userData.experience} years of experience in ${userData.industry}.
-//   Include the following sections:
-//   1. Professional Summary
-//   2. Work Experience at ${userData.companies.join(', ')}
-//   3. Education: ${userData.education.join(', ')}
-//   4. Skills relevant to ${userData.jobTitle}
-//   5. Projects using ${userData.technologies.join(', ')}
+export async function generateFullResume(userData) {
+  const prompt = `Generate a professional resume for a ${userData.jobTitle} with ${userData.experience} years of experience in ${userData.industry}.
+  Include the following sections:
+  1. Professional Summary
+  2. Work Experience at ${userData.companies.join(', ')}
+  3. Education: ${userData.education.join(', ')}
+  4. Skills relevant to ${userData.jobTitle}
+  5. Projects using ${userData.technologies.join(', ')}
   
-//   Focus on:
-//   - Industry-specific achievements
-//   - Technical expertise
-//   - Leadership and soft skills
-//   - Quantifiable results
+  Focus on:
+  - Industry-specific achievements
+  - Technical expertise
+  - Leadership and soft skills
+  - Quantifiable results
   
-//   Current career objective: ${userData.objective}`;
+  Current career objective: ${userData.objective}`;
   
-//   return generateResumeContent(prompt);
-// }
+  return generateResumeContent(prompt);
+}
 
 export async function generateCoverLetter(jobTitle, company, experience, skills, userBackground) {
   const prompt = `Generate a professional cover letter for a ${jobTitle} position at ${company}.
