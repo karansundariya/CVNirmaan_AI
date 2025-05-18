@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI('AIzaSyCLtu3I0Y3K8wfq-xyOpsOHiqm1y1iSiNM');
+const genAI = new GoogleGenerativeAI('AIzaSyDkUNn1FKfleyJ8T320GgJvHvX7jXg3nSY');
 
 export async function generateResumeContent(prompt, currentContent = '') {
   try {
